@@ -1,0 +1,6 @@
+>>> 2 + 2
+4
+>>> name = "Python"
+>>> print(f"Hello, {name}!")
+Hello, Python!
+>>> exit()  # ou Ctrl+Z no Windows, Ctrl+D no macOS/Linux para sair
