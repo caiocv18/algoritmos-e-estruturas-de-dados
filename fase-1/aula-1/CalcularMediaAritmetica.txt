@@ -1,0 +1,9 @@
+ALGORITMO CalcularMedia
+INÍCIO
+    soma ← 0
+    PARA cada valor NO conjunto_de_valores FAÇA
+        soma ← soma + valor
+    FIM PARA
+    media ← soma / tamanho(conjunto_de_valores)
+    RETORNE media
+FIM
