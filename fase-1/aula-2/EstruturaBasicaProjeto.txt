@@ -1,0 +1,5 @@
+projeto_calculadora/
+  ├── calculadora.py
+  ├── README.md
+  └── tests/
+      └── test_calculadora.py
