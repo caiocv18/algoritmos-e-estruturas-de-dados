@@ -1,0 +1,1 @@
+pip install nome-do-pacote==1.0.0
