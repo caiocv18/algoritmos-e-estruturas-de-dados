@@ -1,0 +1,6 @@
+ALGORITMO CalcularMedia
+INÍCIO
+    LER numero1, numero2
+    media ← (numero1 + numero2) / 2
+    ESCREVER "A média é: ", media
+FIM
