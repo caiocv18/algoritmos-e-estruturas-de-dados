@@ -1,0 +1,7 @@
+ALGORITMO ConverterMoeda
+INÍCIO
+    LER valor_original, taxa_conversao
+    valor_convertido ← valor_original * taxa_conversao
+    valor_convertido ← arredondar(valor_convertido, 2)
+    ESCREVER "Valor convertido: ", valor_convertido
+FIM
