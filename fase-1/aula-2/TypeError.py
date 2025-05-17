@@ -1,0 +1,1 @@
+"2" + 2  # TypeError: can only concatenate str (not "int") to strlen(5)   # TypeError: object of type 'int' has no len()
