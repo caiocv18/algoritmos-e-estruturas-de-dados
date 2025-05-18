@@ -7,5 +7,6 @@ print(a or b)# True
 print(False or False)# False# Operador NOT: inverte o valor
 print(not a)# False
 print(not b)# True# Combinação de operadores
+x, y = 6, 5  # Definindo os valores de x e y
 resultado = (x > 5) and (y < 10)
 print(resultado)# True
