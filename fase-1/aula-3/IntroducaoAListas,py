@@ -1,0 +1,29 @@
+# Criação de listas
+numeros = [1, 2, 3, 4, 5]
+misturada = [1, "texto", True, 3.14]
+vazia = []
+
+# Listas aninhadas (multidimensionais)
+matriz = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+
+# Acessando elementos
+primeiro = numeros[0]# 1
+ultimo = numeros[-1]# 5
+# Modificando elementos
+numeros[0] = 10
+print(numeros)# [10, 2, 3, 4, 5]
+# Métodos de lista
+numeros.append(6)# Adiciona ao final: [10, 2, 3, 4, 5, 6]
+numeros.insert(1, 15)# Insere em posição: [10, 15, 2, 3, 4, 5, 6]
+numeros.remove(3)# Remove elemento: [10, 15, 2, 4, 5, 6]
+valor = numeros.pop()# Remove e retorna o último: 6
+print(numeros)# [10, 15, 2, 4, 5]
+# Funções para listas
+print(len(numeros))# Tamanho: 5
+print(sum(numeros))# Soma: 36
+print(max(numeros))# Máximo: 15
+print(min(numeros))# Mínimo: 2
+# Fatiamento (similar a strings)
+print(numeros[1:4])# [15, 2, 4]
+print(numeros[:3])# [10, 15, 2]
+print(numeros[2:])# [2, 4, 5]
