@@ -1,0 +1,1 @@
+print(0.1 + 0.2) # Resultado: 0.30000000000000004, não exatamente 0.3
