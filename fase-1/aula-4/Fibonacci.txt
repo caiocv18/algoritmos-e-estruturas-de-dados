@@ -1,0 +1,17 @@
+ALGORITMO Fibonacci
+INÍCIO
+    Entrada N (número de termos)
+
+    Definir termo1 ← 0
+    Definir termo2 ← 1
+
+    Mostrar termo1
+    Mostrar termo2
+
+    PARA i DE 3 ATÉ N FAÇA
+        próximo_termo ← termo1 + termo2
+        Mostrar próximo_termo
+        termo1 ← termo2
+        termo2 ← próximo_termo
+    FIM PARA
+FIM
