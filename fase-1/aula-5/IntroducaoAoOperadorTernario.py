@@ -1,0 +1,1 @@
+valor_se_verdadeiro if condição else valor_se_falso
