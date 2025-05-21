@@ -1,0 +1,5 @@
+Valor atual: 1
+Valor após incremento: 6
+Valor atual: 6
+Valor após incremento: 11
+Valor final: 11
