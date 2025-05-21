@@ -1,0 +1,1 @@
+[expressão for item in iterável]
