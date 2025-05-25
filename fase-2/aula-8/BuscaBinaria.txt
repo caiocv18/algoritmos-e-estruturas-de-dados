@@ -1,0 +1,16 @@
+Algoritmo BuscaBinaria(lista_ordenada, chave_busca)
+  inicio = 0
+  fim = tamanho_da_lista - 1
+
+  ENQUANTO inicio <= fim:
+    meio = (inicio + fim) / 2  // Pega a parte inteira
+
+    SE lista_ordenada[meio] == chave_busca:
+      Retorne "Item encontrado na posição " + meio
+    SENÃO SE lista_ordenada[meio] < chave_busca:
+      inicio = meio + 1  // Busca na metade direita
+    SENÃO: // lista_ordenada[meio] > chave_busca
+      fim = meio - 1     // Busca na metade esquerda
+
+  Retorne "Item não encontrado"
+FimAlgoritmo
