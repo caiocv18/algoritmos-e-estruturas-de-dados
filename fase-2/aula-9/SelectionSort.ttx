@@ -1,0 +1,10 @@
+Algoritmo SelectionSort(lista)
+  n = tamanho_da_lista
+  PARA i DE 0 ATÉ n-2: // Controla a posição atual a ser preenchida
+    indice_menor = i
+    PARA j DE i+1 ATÉ n-1: // Encontra o menor elemento no restante da lista
+      SE lista[j] < lista[indice_menor]:
+        indice_menor = j
+    Troque lista[i] com lista[indice_menor] // Coloca o menor na posição correta
+  Retorne lista
+FimAlgoritmo
