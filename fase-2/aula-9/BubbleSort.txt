@@ -1,0 +1,8 @@
+Algoritmo BubbleSort(lista)
+  n = tamanho_da_lista
+  PARA i DE 0 ATÉ n-2: // Controla as passadas
+    PARA j DE 0 ATÉ n-i-2: // Controla as comparações em cada passada
+      SE lista[j] > lista[j+1]:
+        Troque lista[j] com lista[j+1]
+  Retorne lista
+FimAlgoritmo
