@@ -1,0 +1,6 @@
+Algoritmo BuscaLinear(lista, chave_busca)
+  PARA cada_item NA lista:
+    SE cada_item é IGUAL A chave_busca:
+      Retorne "Item encontrado na posição X"
+  Retorne "Item não encontrado"
+FimAlgoritmo
