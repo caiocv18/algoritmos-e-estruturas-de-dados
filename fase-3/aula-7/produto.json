@@ -1,0 +1,5 @@
+{
+  "nome": "Camiseta",
+  "preco": 50.0,
+  "cores_disponiveis": ["azul", "preto", "branco"]
+}
